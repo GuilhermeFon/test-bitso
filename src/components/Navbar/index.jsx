@@ -42,7 +42,7 @@ export function Navbar() {
         </ul>
         <div className="w-85">
           <button
-            className="mx-5 text-white bg-[#28AC00] rounded-full h-9 w-40 text-sm font-bold hover:bg-green-700"
+            className="mx-5 text-white bg-[#28AC00] rounded-full h-9 w-[9rem] text-sm font-bold hover:bg-green-700"
             to="/"
           >
             Criar uma conta
