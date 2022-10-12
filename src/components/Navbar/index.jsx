@@ -13,11 +13,9 @@ export function Navbar() {
           <li to="/" className="cursor-pointer text-xs font-light mx-5">
             Preços
           </li>
-          <select to="/" className="cursor-pointer text-xs font-light mx-5 bg-transparent appearance-none bg-">
-            <option value="para você">para você</option>
-            <option value=""></option>
-            <option value=""></option>
-          </select>
+          <li to="/" className="cursor-pointer text-xs font-light mx-5">
+            Para você
+          </li>
           <li to="/" className="cursor-pointer text-xs font-light mx-5">
             Para empresas
           </li>
