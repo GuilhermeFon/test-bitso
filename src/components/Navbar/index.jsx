@@ -9,13 +9,15 @@ export function Navbar() {
         <div>
           <img src={Logo} className="mx-5" />
         </div>
-        <ul className="flex justify-between">
+        <ul className="flex justify-between items-center">
           <li to="/" className="cursor-pointer text-xs font-light mx-5">
             Preços
           </li>
-          <li to="/" className="cursor-pointer text-xs font-light mx-5">
-            Para você
-          </li>
+          <select to="/" className="cursor-pointer text-xs font-light mx-5 bg-transparent appearance-none bg-">
+            <option value="para você">para você</option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
           <li to="/" className="cursor-pointer text-xs font-light mx-5">
             Para empresas
           </li>
@@ -40,9 +42,9 @@ export function Navbar() {
             PT-BR
           </li>
         </ul>
-        <div className="w-85">
+        <div className="">
           <button
-            className="mx-5 text-white bg-[#28AC00] rounded-full h-9 w-[9rem] text-sm font-bold hover:bg-green-700"
+            className=" text-white bg-[#28AC00] rounded-full h-9 w-[9rem] text-sm font-bold hover:bg-green-700"
             to="/"
           >
             Criar uma conta

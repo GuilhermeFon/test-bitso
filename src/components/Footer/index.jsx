@@ -52,11 +52,11 @@ export function Footer() {
             Português
           </div>
           <div className="flex flex-row mt-3">
-            <YoutubeLogo />
-            <FacebookLogo />
-            <TwitterLogo />
-            <InstagramLogo />
-            <TelegramLogo />
+            <YoutubeLogo className="cursor-pointer m-1"/>
+            <FacebookLogo className="cursor-pointer m-1"/>
+            <TwitterLogo className="cursor-pointer m-1"/>
+            <InstagramLogo className="cursor-pointer m-1"/>
+            <TelegramLogo className="cursor-pointer m-1"/>
           </div>
         </div>
       </div>
