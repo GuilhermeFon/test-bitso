@@ -11,23 +11,29 @@ export function Signup() {
           <p className="">*CAMPOS OBRIGATÓRIOS</p>
         </div>
         <div className="flex flex-col w-full items-center text-xs mt-1">
-          <input
-            type="text"
-            placeholder="NOME COMPLETO*"
-            className="w-4/5 border-2 rounded-full px-5 py-1 border-gray-600"
-          />
-          <input
-            type="email"
-            placeholder="E-MAIL (digite o mesmo e-mail da conta Bitso)*"
-            className="w-4/5 border-2 rounded-full mt-3 px-5 py-1 border-gray-600"
-          />
+          <form action="" className="flex flex-col w-full items-center">
+            <input
+              type="text"
+              placeholder="NOME COMPLETO*"
+              id="name"
+              autoComplete="off"
+              className="w-4/5 border-2 rounded-full px-5 py-1 border-gray-600"
+            />
+            <input
+              type="email"
+              placeholder="E-MAIL (digite o mesmo e-mail da conta Bitso)*"
+              id="email"
+              autoComplete="off"
+              className="w-4/5 border-2 rounded-full mt-3 px-5 py-1 border-gray-600"
+            />
+            <button
+              type="submit"
+              className="border rounded-full bg-slate-400 w-48 h-8 m-9 py-1 text-sm"
+            >
+              Enviar
+            </button>
+          </form>
         </div>
-        <button
-          type="submit"
-          className="border rounded-full bg-slate-400 w-48 h-8 m-9 py-1 text-sm"
-        >
-          Enviar
-        </button>
       </div>
       <div className="mt-11 text-sm font-light">
         <p>
