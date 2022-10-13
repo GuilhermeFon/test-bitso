@@ -7,7 +7,9 @@ export function Navbar() {
     <>
       <nav className="flex flex-row justify-center items-center h-14 w-full">
         <div>
-          <img src={Logo} className="mx-5" />
+          <a href="/">
+            <img src={Logo} className="mx-5" />
+          </a>
         </div>
         <ul className="flex justify-between items-center">
           <li to="/" className="cursor-pointer text-xs font-light mx-5">

@@ -14,7 +14,9 @@ export function Footer() {
       <div className="flex flex-row w-[45%] justify-between">
         <div className="flex flex-col">
           <div>
-            <img src={Logo} alt="" />
+            <a href="/">
+              <img src={Logo} alt="" />
+            </a>
           </div>
         </div>
         <div className="flex flex-col">
@@ -52,11 +54,11 @@ export function Footer() {
             Português
           </div>
           <div className="flex flex-row mt-3">
-            <YoutubeLogo className="cursor-pointer m-1"/>
-            <FacebookLogo className="cursor-pointer m-1"/>
-            <TwitterLogo className="cursor-pointer m-1"/>
-            <InstagramLogo className="cursor-pointer m-1"/>
-            <TelegramLogo className="cursor-pointer m-1"/>
+            <YoutubeLogo className="cursor-pointer m-1" />
+            <FacebookLogo className="cursor-pointer m-1" />
+            <TwitterLogo className="cursor-pointer m-1" />
+            <InstagramLogo className="cursor-pointer m-1" />
+            <TelegramLogo className="cursor-pointer m-1" />
           </div>
         </div>
       </div>
