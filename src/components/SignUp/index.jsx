@@ -39,7 +39,7 @@ export function Signup() {
         <p>
           <a href="/" className="cursor-pointer underline decoration-1">
             Clique aqui
-          </a>
+          </a>{" "}
           e leia o regulamento da promoção.
         </p>
       </div>
